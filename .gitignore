@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+*.cache
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# מערכת הפעלה
+Thumbs.db
+.DS_Store
