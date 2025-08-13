@@ -1,17 +1,60 @@
-# Visual Studio
+﻿## Visual Studio / .NET
 .vs/
 bin/
 obj/
-TestResults/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Aa][Rr][Mm]64*/
+[Bb]uild/
+[Bb]uild[Ll]og.*
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 *.cache
 *.log
 
-# NuGet
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## NuGet
 packages/
 *.nupkg
+project.lock.json
+artifacts/
 
-# מערכת הפעלה
+## Resharper / Rider / JetBrains
+_ReSharper*/
+*.[Rr]e[Ss]harper
+.idea/
+*.DotSettings.user
+
+## VS Code
+.vscode/
+
+## IIS / ASP.NET (אם לא רלוונטי, אפשר להשאיר)
+_IISExpress/
+*.vspscc
+*.vssscc
+
+## Others
+*.dbmdl
+*.jfm
+*.pdb
+*.opendb
+*.bak
+*.tmp
+~$*
+*.swp
+
+## OS files
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 .DS_Store
